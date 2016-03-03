@@ -1,0 +1,63 @@
+{
+  "environment": {
+    "locale": "C",
+    "system_type": "docker"
+  },
+  "os": {
+    "name": "openSUSE Leap",
+    "version": "42.1",
+    "architecture": "x86_64"
+  },
+  "packages": {
+    "_attributes": {
+      "package_system": "rpm"
+    },
+    "_elements": [
+      {
+        "name": "machinery",
+        "version": "1.17.0",
+        "release": "8.1",
+        "arch": "x86_64",
+        "vendor": "obs://build.opensuse.org/systemsmanagement",
+        "checksum": "3978ad1c54a5d2b31e2ef3fd2646d8d1"
+      }
+    ]
+  },
+  "repositories": {
+    "_attributes": {
+      "repository_system": "zypp"
+    },
+    "_elements": [
+      {
+        "alias": "machinery",
+        "name": "machinery",
+        "type": "rpm-md",
+        "url": "http://download.opensuse.org/repositories/systemsmanagement:/machinery/openSUSE_Leap_42.1/",
+        "enabled": true,
+        "autorefresh": true,
+        "gpgcheck": false,
+        "priority": 99
+      }
+    ]
+  },
+  "meta": {
+    "format_version": 7,
+    "os": {
+      "modified": "2016-03-03T12:59:22Z",
+      "hostname": "docker/machinery"
+    },
+    "packages": {
+      "modified": "2016-03-03T12:59:22Z",
+      "hostname": "docker/machinery"
+    },
+    "repositories": {
+      "modified": "2016-03-03T12:59:22Z",
+      "hostname": "docker/machinery"
+    },
+    "filters": {
+      "inspect": [
+
+      ]
+    }
+  }
+}

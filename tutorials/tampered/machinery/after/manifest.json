@@ -1,0 +1,323 @@
+{
+  "environment": {
+    "locale": "en_US.utf8",
+    "system_type": "remote"
+  },
+  "users": {
+    "_elements": [
+      {
+        "name": "+",
+        "password": "",
+        "uid": null,
+        "gid": null,
+        "comment": "",
+        "home": "",
+        "shell": ""
+      },
+      {
+        "name": "bin",
+        "password": "x",
+        "uid": 1,
+        "gid": 1,
+        "comment": "bin",
+        "home": "/bin",
+        "shell": "/bin/bash",
+        "encrypted_password": "*",
+        "last_changed_date": 16841
+      },
+      {
+        "name": "daemon",
+        "password": "x",
+        "uid": 2,
+        "gid": 2,
+        "comment": "Daemon",
+        "home": "/sbin",
+        "shell": "/bin/bash",
+        "encrypted_password": "*",
+        "last_changed_date": 16841
+      },
+      {
+        "name": "drevil",
+        "password": "x",
+        "uid": 1002,
+        "gid": 100,
+        "comment": "",
+        "home": "",
+        "shell": "/bin/bash"
+      },
+      {
+        "name": "ftp",
+        "password": "x",
+        "uid": 40,
+        "gid": 49,
+        "comment": "FTP account",
+        "home": "/srv/ftp",
+        "shell": "/bin/bash",
+        "encrypted_password": "*",
+        "last_changed_date": 16841
+      },
+      {
+        "name": "games",
+        "password": "x",
+        "uid": 12,
+        "gid": 100,
+        "comment": "Games account",
+        "home": "/var/games",
+        "shell": "/bin/bash",
+        "encrypted_password": "*",
+        "last_changed_date": 16841
+      },
+      {
+        "name": "lp",
+        "password": "x",
+        "uid": 4,
+        "gid": 7,
+        "comment": "Printing daemon",
+        "home": "/var/spool/lpd",
+        "shell": "/bin/bash",
+        "encrypted_password": "*",
+        "last_changed_date": 16841
+      },
+      {
+        "name": "machinery",
+        "password": "x",
+        "uid": 1001,
+        "gid": 100,
+        "comment": "",
+        "home": "/home/machinery",
+        "shell": "/bin/bash",
+        "encrypted_password": "$6$SR.bxn4u$7I1u/TxD7kq5eDkzwnzdUJDRPYNMWvudwxx6NV0TVP12bnsuh.C.DUqTtt5vSOykAokuDjz.kMX5q6jtdk7bq.",
+        "last_changed_date": 16862,
+        "min_days": 0,
+        "max_days": 99999,
+        "warn_days": 7
+      },
+      {
+        "name": "mail",
+        "password": "x",
+        "uid": 8,
+        "gid": 12,
+        "comment": "Mailer daemon",
+        "home": "/var/spool/clientmqueue",
+        "shell": "/bin/false",
+        "encrypted_password": "*",
+        "last_changed_date": 16841
+      },
+      {
+        "name": "man",
+        "password": "x",
+        "uid": 13,
+        "gid": 62,
+        "comment": "Manual pages viewer",
+        "home": "/var/cache/man",
+        "shell": "/bin/bash",
+        "encrypted_password": "*",
+        "last_changed_date": 16841
+      },
+      {
+        "name": "messagebus",
+        "password": "x",
+        "uid": 499,
+        "gid": 497,
+        "comment": "User for D-Bus",
+        "home": "/var/run/dbus",
+        "shell": "/bin/false",
+        "encrypted_password": "!",
+        "last_changed_date": 16841
+      },
+      {
+        "name": "news",
+        "password": "x",
+        "uid": 9,
+        "gid": 13,
+        "comment": "News system",
+        "home": "/etc/news",
+        "shell": "/bin/bash",
+        "encrypted_password": "*",
+        "last_changed_date": 16841
+      },
+      {
+        "name": "nobody",
+        "password": "x",
+        "uid": 65534,
+        "gid": 65533,
+        "comment": "nobody",
+        "home": "/var/lib/nobody",
+        "shell": "/bin/bash",
+        "encrypted_password": "*",
+        "last_changed_date": 16841
+      },
+      {
+        "name": "polkitd",
+        "password": "x",
+        "uid": 495,
+        "gid": 495,
+        "comment": "User for polkitd",
+        "home": "/var/lib/polkit",
+        "shell": "/sbin/nologin",
+        "encrypted_password": "!",
+        "last_changed_date": 16841
+      },
+      {
+        "name": "root",
+        "password": "x",
+        "uid": 0,
+        "gid": 0,
+        "comment": "root",
+        "home": "/root",
+        "shell": "/bin/bash",
+        "encrypted_password": "er7XAH4XTfNuI",
+        "last_changed_date": 16841
+      },
+      {
+        "name": "rpc",
+        "password": "x",
+        "uid": 498,
+        "gid": 65534,
+        "comment": "user for rpcbind",
+        "home": "/var/lib/empty",
+        "shell": "/sbin/nologin",
+        "encrypted_password": "!",
+        "last_changed_date": 16841
+      },
+      {
+        "name": "sshd",
+        "password": "x",
+        "uid": 497,
+        "gid": 496,
+        "comment": "SSH daemon",
+        "home": "/var/lib/sshd",
+        "shell": "/bin/bash",
+        "encrypted_password": "!",
+        "last_changed_date": 16841
+      },
+      {
+        "name": "statd",
+        "password": "x",
+        "uid": 496,
+        "gid": 65534,
+        "comment": "NFS statd daemon",
+        "home": "/var/lib/nfs",
+        "shell": "/sbin/nologin",
+        "encrypted_password": "!",
+        "last_changed_date": 16841
+      },
+      {
+        "name": "uucp",
+        "password": "x",
+        "uid": 10,
+        "gid": 14,
+        "comment": "Unix-to-Unix CoPy system",
+        "home": "/etc/uucp",
+        "shell": "/bin/bash",
+        "encrypted_password": "*",
+        "last_changed_date": 16841
+      },
+      {
+        "name": "vagrant",
+        "password": "x",
+        "uid": 1000,
+        "gid": 1000,
+        "comment": "",
+        "home": "/home/vagrant",
+        "shell": "/bin/bash",
+        "encrypted_password": "er7XAH4XTfNuI",
+        "last_changed_date": 16841,
+        "min_days": 0,
+        "max_days": 99999,
+        "warn_days": 7
+      },
+      {
+        "name": "wwwrun",
+        "password": "x",
+        "uid": 30,
+        "gid": 8,
+        "comment": "WWW daemon apache",
+        "home": "/var/lib/wwwrun",
+        "shell": "/bin/false",
+        "encrypted_password": "*",
+        "last_changed_date": 16841
+      }
+    ]
+  },
+  "unmanaged_files": {
+    "_attributes": {
+      "extracted": true,
+      "has_metadata": true
+    },
+    "_elements": [
+      {
+        "name": "/boot/grub2/bootpart.cfg",
+        "user": "root",
+        "group": "root",
+        "type": "file",
+        "mode": "644",
+        "size": 117
+      },
+      {
+        "name": "/usr/bin/suspicious.sh",
+        "user": "root",
+        "group": "root",
+        "type": "file",
+        "mode": "755",
+        "size": 34
+      }
+    ]
+  },
+  "meta": {
+    "format_version": 7,
+    "users": {
+      "modified": "2016-03-02T14:54:56Z",
+      "hostname": "192.168.121.67"
+    },
+    "unmanaged_files": {
+      "modified": "2016-03-02T14:54:56Z",
+      "hostname": "192.168.121.67"
+    },
+    "filters": {
+      "inspect": [
+        "/unmanaged_files/name=/etc/passwd",
+        "/unmanaged_files/name=/etc/shadow",
+        "/unmanaged_files/name=/etc/group",
+        "/unmanaged_files/name=/tmp",
+        "/unmanaged_files/name=/var/tmp",
+        "/unmanaged_files/name=/lost+found",
+        "/unmanaged_files/name=/var/run",
+        "/unmanaged_files/name=/var/lock",
+        "/unmanaged_files/name=/var/lib/rpm",
+        "/unmanaged_files/name=/.snapshots",
+        "/unmanaged_files/name=/proc",
+        "/unmanaged_files/name=/etc/init.d/boot.d",
+        "/unmanaged_files/name=/etc/init.d/rc0.d",
+        "/unmanaged_files/name=/etc/init.d/rc1.d",
+        "/unmanaged_files/name=/etc/init.d/rc2.d",
+        "/unmanaged_files/name=/etc/init.d/rc3.d",
+        "/unmanaged_files/name=/etc/init.d/rc4.d",
+        "/unmanaged_files/name=/etc/init.d/rc5.d",
+        "/unmanaged_files/name=/etc/init.d/rc6.d",
+        "/unmanaged_files/name=/etc/init.d/rcS.d",
+        "/unmanaged_files/name=/var/lib/dpkg",
+        "/unmanaged_files/name=/lib/var",
+        "/unmanaged_files/name=/mnt",
+        "/unmanaged_files/name=/opt",
+        "/unmanaged_files/name=/var",
+        "/unmanaged_files/name=/root",
+        "/unmanaged_files/name=/vagrant",
+        "/unmanaged_files/name=/home",
+        "/unmanaged_files/name=/lib64",
+        "/unmanaged_files/name=/remote-dir",
+        "/unmanaged_files/name=/srv",
+        "/unmanaged_files/name=/usr/l*",
+        "/unmanaged_files/name=/usr/sbin",
+        "/unmanaged_files/name=/usr/bin/crontab_link_target",
+        "/unmanaged_files/name=/etc",
+        "/unmanaged_files/name=/boot/0x8dcee1f0",
+        "/unmanaged_files/name=/boot/grub2/i386-pc",
+        "/unmanaged_files/name=/boot/grub2/i386-pc",
+        "/unmanaged_files/name=/boot/initrd.vmx",
+        "/unmanaged_files/name=/boot/linux.vmx",
+        "/unmanaged_files/name=/boot/unicode.pf2"
+      ]
+    }
+  }
+}
