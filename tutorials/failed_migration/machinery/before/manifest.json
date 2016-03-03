@@ -1,0 +1,87 @@
+{
+  "environment": {
+    "locale": "en_US.utf8",
+    "system_type": "remote"
+  },
+  "packages": {
+    "_attributes": {
+      "package_system": "rpm"
+    },
+    "_elements": [
+      {
+        "name": "kernel-xen",
+        "version": "4.1.12",
+        "release": "1.1",
+        "arch": "x86_64",
+        "vendor": "openSUSE",
+        "checksum": "b3abf022c1dd23f1ebc25bca1ebd4386"
+      }
+    ]
+  },
+  "unmanaged_files": {
+    "_attributes": {
+      "extracted": false,
+      "has_metadata": false
+    },
+    "_elements": [
+
+    ]
+  },
+  "meta": {
+    "format_version": 7,
+    "packages": {
+      "modified": "2016-03-03T09:13:03Z",
+      "hostname": "192.168.121.67"
+    },
+    "unmanaged_files": {
+      "modified": "2016-03-03T09:13:03Z",
+      "hostname": "192.168.121.67"
+    },
+    "filters": {
+      "inspect": [
+        "/unmanaged_files/name=/etc/passwd",
+        "/unmanaged_files/name=/etc/shadow",
+        "/unmanaged_files/name=/etc/group",
+        "/unmanaged_files/name=/tmp",
+        "/unmanaged_files/name=/var/tmp",
+        "/unmanaged_files/name=/lost+found",
+        "/unmanaged_files/name=/var/run",
+        "/unmanaged_files/name=/var/lock",
+        "/unmanaged_files/name=/var/lib/rpm",
+        "/unmanaged_files/name=/.snapshots",
+        "/unmanaged_files/name=/proc",
+        "/unmanaged_files/name=/etc/init.d/boot.d",
+        "/unmanaged_files/name=/etc/init.d/rc0.d",
+        "/unmanaged_files/name=/etc/init.d/rc1.d",
+        "/unmanaged_files/name=/etc/init.d/rc2.d",
+        "/unmanaged_files/name=/etc/init.d/rc3.d",
+        "/unmanaged_files/name=/etc/init.d/rc4.d",
+        "/unmanaged_files/name=/etc/init.d/rc5.d",
+        "/unmanaged_files/name=/etc/init.d/rc6.d",
+        "/unmanaged_files/name=/etc/init.d/rcS.d",
+        "/unmanaged_files/name=/var/lib/dpkg",
+        "/unmanaged_files/name=/lib/var",
+        "/unmanaged_files/name=/mnt",
+        "/unmanaged_files/name=/opt",
+        "/unmanaged_files/name=/var",
+        "/unmanaged_files/name=/root",
+        "/unmanaged_files/name=/vagrant",
+        "/unmanaged_files/name=/home",
+        "/unmanaged_files/name=/lib64",
+        "/unmanaged_files/name=/remote-dir",
+        "/unmanaged_files/name=/srv",
+        "/unmanaged_files/name=/usr/l*",
+        "/unmanaged_files/name=/usr/sbin",
+        "/unmanaged_files/name=/usr/bin/crontab_link_target",
+        "/unmanaged_files/name=/etc",
+        "/unmanaged_files/name=/boot/0x8dcee1f0",
+        "/unmanaged_files/name=/boot/grub2/i386-pc",
+        "/unmanaged_files/name=/boot/grub2/i386-pc",
+        "/unmanaged_files/name=/boot/initrd.vmx",
+        "/unmanaged_files/name=/boot/linux.vmx",
+        "/unmanaged_files/name=/boot/unicode.pf2",
+        "/unmanaged_files/name=/boot/grub2/bootpart.cfg"
+      ]
+    }
+  }
+}
