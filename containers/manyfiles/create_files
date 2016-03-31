@@ -1,0 +1,7 @@
+#!/usr/bin/ruby
+
+50000.times do |i|
+  File.open(File.join("opt", i.to_s), "w") do |f|
+    f.write i
+  end
+end

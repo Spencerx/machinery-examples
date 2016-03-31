@@ -12,6 +12,9 @@ For more information, [visit our website](http://machinery-project.org/).
 Each type of example is grouped by category and they all live together in
 a directory. Go inside the directory and follow the instructions in README.md
 
+Additionally there is a directory with Docker containers in the `containers`
+directory which has some examples which can be used for Docker inspection.
+
 ## Contact
 
 You can subscribe to our
